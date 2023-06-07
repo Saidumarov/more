@@ -32,7 +32,7 @@ const Api = () => {
                     <div className="of">
                         <div className="res">
                             <p>{itme.body}</p>
-                            <button class="bb" onClick={of} >boss</button>
+                            <button class="bb" onClick={of} >click</button>
                         </div>
                     </div>
                 ))}
