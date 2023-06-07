@@ -31,12 +31,6 @@ const Api = () => {
             });
         }
  
-        for (let i= document.querySelector(".bb"); i = ""; i++) {
-            i.addEventListener("cilck" , () =>{
-               console.log("salom"); 
-            })
-            
-          }
     }
    
 
