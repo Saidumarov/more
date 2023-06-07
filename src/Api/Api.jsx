@@ -9,20 +9,14 @@ const Api = () => {
             .then(json => {
                 setState(json)
                 console.log(state);
-
             })
-    }, [])        
-
-
+    }, [])
     function of() {
-        
         document.querySelectorAll('button').forEach(btn => {
             btn.addEventListener('click', e => {
-                e.target.parentNode.classList.toggle('active');         
-            
+                e.target.parentNode.classList.toggle('active');
             })
-            
-})
+        })
     }
     of()
     return (

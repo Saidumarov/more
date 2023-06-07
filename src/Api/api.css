@@ -54,33 +54,19 @@ button:active {
     width: 50%;
 }
 
-
 @media screen and (max-width:1193px) {
     .of {
-    
         width: 90%;
-   
     }
-
-
 }
 @media screen and (max-width:650px) {
     .of {
-    
         width: 85%;
-   
     }
-
-
 }
-
 @media screen and (max-width:500px) {
     .of {
-    
         width: 80%;
-   
     }
-
-
 }
 
